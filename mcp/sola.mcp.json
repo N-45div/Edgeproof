@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "sola": {
+      "type": "http",
+      "url": "https://api.sola.security/mcp"
+    },
+    "oauth": {
+      "clientId": "YOUR_SOLA_CLIENT_ID"
+    },
+    "headers": {
+      "x-create-resources": "true",
+      "x-query-timeout": "600",
+      "x-query-rows-limit": "100000",
+      "x-query-memory-limit": "10485760"
+    }
+  }
+}
